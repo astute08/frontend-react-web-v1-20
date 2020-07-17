@@ -1,0 +1,31 @@
+
+.permission-header{
+  background-color:  #ffffff;
+  padding-left: 12px;
+  padding-top: 12px;
+  box-shadow: 0px 1px 2px 1px #00000033;
+}
+.permission-card .ant-card-body{
+  padding: 0px;
+}
+.permission-card .ant-card-head{
+  border-bottom: 1.5px solid #e8e8e8;
+}
+.permission-tag {
+  border: 1px solid #FE6202;
+  color: #FE6202;
+}
+
+.permission-tag  .anticon-close{
+  color: #FE6202 !important;
+
+}
+.permission-card-tag{
+  margin-top: 24px;
+  margin-left: 10px;
+}
+.permission-card-tag .ant-card-body{
+  padding: 20px;
+  box-shadow: 0px 1px 1px 0px #00000012;
+
+}

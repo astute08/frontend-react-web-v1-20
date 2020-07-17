@@ -1,0 +1,38 @@
+.ant-pagination.mini .ant-pagination-item {
+  border: 1px solid #fe6202;
+}
+
+.ant-pagination-item-active a {
+  color: #fe6202;
+}
+
+.ant-pagination-item-active a:hover {
+  color: #fe6202;
+}
+
+/* .ant-table-row:hover {
+    background: #fff2ec;
+} */
+
+.ant-table-thead
+  > tr.ant-table-row-hover:not(.ant-table-expanded-row):not(.ant-table-row-selected)
+  > td,
+.ant-table-tbody
+  > tr.ant-table-row-hover:not(.ant-table-expanded-row):not(.ant-table-row-selected)
+  > td,
+.ant-table-thead
+  > tr:hover:not(.ant-table-expanded-row):not(.ant-table-row-selected)
+  > td,
+.ant-table-tbody
+  > tr:hover:not(.ant-table-expanded-row):not(.ant-table-row-selected)
+  > td {
+  background: #fff2ec;
+}
+
+.table {
+  margin: 0px 24px;
+}
+
+.table .ant-table {
+  -webkit-box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.15);
+}

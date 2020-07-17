@@ -1,0 +1,12 @@
+:root {
+    --main-icon-color: #6d6560;
+  }
+.ant-card-grid{
+    padding-top: 5px;
+    padding-right: 12px;
+    padding-bottom: 5px;
+    padding-left: 12px;
+}
+.icon-focus{
+    color: #fe6202 ; 
+}

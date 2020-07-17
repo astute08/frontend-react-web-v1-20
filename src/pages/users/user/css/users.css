@@ -1,0 +1,66 @@
+/* .StyledAppSelect {
+    border-radius: 5%;
+    width: 20%;
+    height: 36px;
+    margin-right: 20px;
+}
+
+.StyledSelectColumns {
+    width: 120px;
+    height: 36px;
+    margin-right: 9px;
+} */
+
+/* .ant-select-selection {
+    height: 36px;   
+} */
+
+.ant-btn-dashed:hover, .ant-btn-dashed:focus {
+    color: #FE6202;
+    background-color: #fff;
+    border-color: #FE6202;
+}
+.user-card-style{
+    margin-top: 10px;
+}
+.ant-select-disabled .ant-select-selection--multiple .ant-select-selection__choice {
+    display: none;
+}
+
+.ant-table-thead > tr.ant-table-row-hover:not(.ant-table-expanded-row):not(.ant-table-row-selected) > td,
+.ant-table-tbody > tr.ant-table-row-hover:not(.ant-table-expanded-row):not(.ant-table-row-selected) > td,
+.ant-table-thead > tr:hover:not(.ant-table-expanded-row):not(.ant-table-row-selected) > td,
+.ant-table-tbody > tr:hover:not(.ant-table-expanded-row):not(.ant-table-row-selected) > td {
+    background: #fff2ec;
+}
+
+.ant-dropdown-menu-item:hover, .ant-dropdown-menu-submenu-title:hover {
+    background-color: #fff2ec;
+}
+
+.ant-card-body {
+    padding: 24px 0px 24px 0px;
+    zoom: 1;
+}
+
+.ant-list-item-meta-title > a:hover {
+    color: #FE6202;
+}
+.ant-list-item{
+    justify-content: left;
+    text-align: left;
+}
+
+.ant-pagination-item:focus a, .ant-pagination-item:hover a {
+    color: #fe6202;
+}
+
+.ant-pagination-prev:focus .ant-pagination-item-link, .ant-pagination-next:focus .ant-pagination-item-link,
+.ant-pagination-prev:hover .ant-pagination-item-link, .ant-pagination-next:hover .ant-pagination-item-link {
+    color: #fe6202;
+    /* border-color: #1890ff; */
+}
+
+.p-style {
+    width: '100%';
+}

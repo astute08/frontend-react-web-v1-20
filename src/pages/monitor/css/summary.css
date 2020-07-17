@@ -1,0 +1,12 @@
+.summary{
+    padding: 0px ;
+    width: 100% ;
+    height: 750px;
+}
+.summary .ant-card-body{
+    padding: 0px ;
+}
+.status {
+    padding-top: 0px;
+}
+

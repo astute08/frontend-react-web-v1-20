@@ -1,0 +1,35 @@
+.shift {
+  justify-content: center;
+  width: 790px !important;
+}
+
+.col-avatar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.list-item {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  padding: 5px 0px 5px 0px;
+  
+}
+
+.text-p-sh {
+  margin-bottom: 0px;
+  padding-left: 10px;
+}
+
+.form {
+  margin-top: 10px;
+}
+
+.select {
+  width: 70%;
+}
+
+.datePicker {
+  width: 70%;
+}

@@ -1,0 +1,15 @@
+.image-bg{
+    width: 100%;
+    max-height: 150%;  
+}
+.left-form{
+    padding-top: 35px;
+    padding-left: 60px !important;
+    padding-right: 60px !important;
+}
+.index-style{
+    background-color: #FAFAFA;
+}
+.div{
+    overflow: hidden;
+}

@@ -1,0 +1,7 @@
+.tagify__input{
+    max-height: 150px !important;
+    min-width: 200px !important;
+}
+.form-group{
+    margin-top: 10px;
+}

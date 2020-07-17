@@ -1,0 +1,7 @@
+.label-edit-from .ant-form-item-required::before {
+  content: none;
+}
+
+.edit-button {
+  margin: 0px;
+}

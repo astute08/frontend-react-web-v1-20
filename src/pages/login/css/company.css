@@ -1,0 +1,41 @@
+.selection-style {
+    position: relative;
+    height: 0px !important;
+    cursor: pointer;
+}
+  .input-label {
+    text-align: left;
+    margin-top: 5px;
+    padding-bottom: 10px;
+    width: 100%;
+    font-style: normal;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #000000;
+    font-size: 16px;
+  }
+  .login-form-forgot {
+    float: right;
+    color: #7D7D7D;
+    font-size: small;
+    font-weight: normal;
+    font-size: 14px;
+
+  }
+  .login-form-forgot:hover{
+    color: #FE6202;
+  }
+  .username-style{
+    padding-left: 5px;
+    color: #FE6202;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+
+  }
+  .icon-style{
+    color: #FE6202;
+  }
+  .icon-lock{
+    float: right;
+    color: #57575741;
+    font-size: 16px;
+  }

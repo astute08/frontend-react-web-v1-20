@@ -1,0 +1,13 @@
+.tabs {
+  background-color: #fff;
+  border: 1px solid #e8e8e8;
+  transition: all 0.3s;
+  color: #000000;
+}
+
+.ant-tabs .ant-tabs-large-bar .ant-tabs-tab {
+  padding: 16px 28px 16px 28px;
+}
+.emergency-contact{
+  padding-bottom: 23.1px !important;
+}

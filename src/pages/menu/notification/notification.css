@@ -1,0 +1,43 @@
+.notice-image{
+    vertical-align: middle;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+}
+/* .kgt-btn-style{
+    border-radius: 4px;
+    border-color: rgba(254, 99, 2, 0.315) !important;
+    color: #FE6202 !important;
+    background-color: #ffffff !important;
+    width: fit-content;
+  } */
+  .platform-style{
+    margin-left: -10px;
+    margin-right: 0px !important;
+  }
+  .ant-row {
+    position: relative;
+    height: auto;
+    margin-right: 0;
+    margin-left: 0;
+    padding-top: 0px;
+    zoom: 1;
+    display: block;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  .ant-card-small > .ant-card-head > .ant-card-head-wrapper > .ant-card-extra {
+    padding: 4px 0 !important;
+    font-size: 14px;
+  }
+  .notice-image{
+    width: 19px;
+    height: 19px;
+  }
+  .dot-notification {
+    height: 25px;
+    width: 25px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+  }

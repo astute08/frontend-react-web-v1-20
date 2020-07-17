@@ -1,0 +1,65 @@
+[
+  {
+    "id": 1,
+    "name": "Kaset Kampangsaen",
+    "latitude": "14.019911",
+    "longitude": "99.971271",
+    "icon": "https://sv1.picz.in.th/images/2020/03/26/QoPCNn.png"
+  },
+  {
+    "id": 2,
+    "name": "Pathum Thani",
+    "latitude": "14.080680",
+    "longitude": "100.610223",
+    "icon": "https://sv1.picz.in.th/images/2020/03/26/QoPsvS.png"
+  },
+  {
+    "id": 3,
+    "name": "Bang Khu Rat",
+    "latitude": "13.912557",
+    "longitude": "100.359398",
+    "icon": "https://sv1.picz.in.th/images/2020/03/26/Qos7vI.png"
+  },
+  {
+    "id": 4,
+    "name": "Bang Mae Nang",
+    "latitude": "13.901260",
+    "longitude": "100.369512",
+    "icon": "https://sv1.picz.in.th/images/2020/03/26/Qos9tN.png"
+  },
+  {
+    "id": 5,
+    "name": "Bang Rak Phatthana",
+    "latitude": "13.907593",
+    "longitude": "100.394149",
+    "icon": "https://sv1.picz.in.th/images/2020/03/26/QoPPjQ.png"
+  },
+  {
+    "id": 6,
+    "name": "นบ.4012",
+    "latitude": "13.921257",
+    "longitude": "100.432773",
+    "icon": "https://sv1.picz.in.th/images/2020/03/26/QoPA9V.png"
+  },
+  {
+    "id": 7,
+    "name": "Bang Bua Thong",
+    "latitude": "13.907844",
+    "longitude": "100.438261",
+    "icon": "https://sv1.picz.in.th/images/2020/03/26/QoPoyN.png"
+  },
+  {
+    "id": 8,
+    "name": "Soi Mu Ban Chonlada 48 A",
+    "latitude": "13.896430",
+    "longitude": "100.418777",
+    "icon": "https://sv1.picz.in.th/images/2020/03/26/QoPlsE.png"
+  },
+  {
+    "id": 9,
+    "name": "Soi Plai Bang 2",
+    "latitude": "13.802102",
+    "longitude": "100.416183",
+    "icon": "https://sv1.picz.in.th/images/2020/03/26/QoPjZv.png"
+  }
+]

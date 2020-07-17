@@ -1,0 +1,153 @@
+:root {
+  --main-bg-color: #FE6202;
+  --color-white: #FFFFFF;
+  --color-gray: #C8C8C8;
+  --color-border-gray: #F6F6F6;
+}
+
+.txt-main-color {
+  color: var(--main-bg-color);
+}
+
+.register-form .ant-btn-lg, .ant-modal-root .ant-btn-lg {
+  margin-top: 5px;
+  height: 30px;
+  width: 110px;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 2px;
+  box-shadow: 0px 2px 0px rgba(254, 98, 2, 0.03) !important;
+}
+
+.register-form .ant-btn-danger, .ant-modal-root .ant-btn-danger {
+  color: var(--color-white);
+  background-color: var(--main-bg-color);
+  border-color: var(--main-bg-color);
+}
+
+.register-form .ant-btn-danger:hover, .ant-modal-root .ant-btn-danger:hover {
+  color: var(--main-bg-color);
+  background-color: var(--color-white);
+}
+
+.register-form .ant-steps-item-process .ant-steps-item-icon, .ant-modal-root .ant-steps-item-process .ant-steps-item-icon {
+  background-color: var(--color-white);
+  border: 1px solid var(--main-bg-color);
+}
+
+.register-form .ant-steps-item-process .ant-steps-item-icon > .ant-steps-icon, .ant-modal-root .ant-steps-item-process .ant-steps-item-icon > .ant-steps-icon {
+  color: var(--main-bg-color);
+}
+
+.register-form .ant-steps-item-finish .ant-steps-item-icon, .ant-modal-root .ant-steps-item-finish .ant-steps-item-icon {
+  background-color: var(--main-bg-color);
+  border-color: var(--main-bg-color);
+}
+
+.register-form .ant-steps-item-finish .ant-steps-item-icon > .ant-steps-icon, .ant-modal-root .ant-steps-item-finish .ant-steps-item-icon > .ant-steps-icon {
+  color: var(--color-white);
+}
+
+.register-form .ant-steps-item-wait > .ant-steps-item-container > .ant-steps-item-content > .ant-steps-item-title, .ant-modal-root .ant-steps-item-wait > .ant-steps-item-container > .ant-steps-item-content > .ant-steps-item-title {
+  color: var(--color-gray);
+}
+
+.register-form .ant-steps-item-process > .ant-steps-item-container > .ant-steps-item-content > .ant-steps-item-title,
+.register-form .ant-steps-item-finish > .ant-steps-item-container > .ant-steps-item-content > .ant-steps-item-title,
+.ant-modal-root .ant-steps-item-process > .ant-steps-item-container > .ant-steps-item-content > .ant-steps-item-title,
+.ant-modal-root .ant-steps-item-finish > .ant-steps-item-container > .ant-steps-item-content > .ant-steps-item-title {
+  color: var(--main-bg-color);
+}
+
+.register-form .ant-steps-item-process .ant-steps-item-title,
+.register-form .ant-steps-item-finish > .ant-steps-item-container > .ant-steps-item-content > .ant-steps-item-title, 
+.ant-modal-root .ant-steps-item-process .ant-steps-item-title,
+.ant-modal-root .ant-steps-item-finish > .ant-steps-item-container > .ant-steps-item-content > .ant-steps-item-title {
+  font-weight: 500;
+}
+
+.register-form .ant-steps-item-finish > .ant-steps-item-container > .ant-steps-item-content > .ant-steps-item-title::after,
+.ant-modal-root .ant-steps-item-finish > .ant-steps-item-container > .ant-steps-item-content > .ant-steps-item-title::after {
+  background-color: var(--main-bg-color);
+}
+
+.register-form .ant-card {
+  margin-bottom: 20px;
+}
+
+.register-form .ant-card-head, .ant-modal-root .ant-card-head {
+  padding: 0px 20px;
+}
+
+.register-form .ant-card-bordered, .ant-modal-root .ant-card-bordered {
+  border-top: 1px solid #FBFBFB;
+  border-left: 1px solid #E9E9E9;
+  border-right: 1px solid #E9E9E9;
+  border-bottom: 1px solid #D9D9D9;
+  box-shadow: 0px 1px 0 rgba(217, 217, 217, 0.8);
+}
+
+.register-form .ant-card-head-title, .ant-modal-root .ant-card-head-title, .ant-modal-root .ant-modal-title {
+  font-weight: 200;
+}
+
+.register-form .ant-avatar, .ant-modal-root .ant-form .ant-avatar {
+  background-color: var(--main-bg-color);
+}
+
+.register-form .ant-row .ant-form-item, .ant-modal-root .ant-row .ant-form-item {
+  margin-bottom: 15px;
+}
+
+.register-form .ant-card-body, .ant-modal-root .ant-card-body {
+  padding: 10px;
+}
+
+.register-form .ant-radio-inner, .ant-modal-root .ant-radio-inner {
+  border-color: var(--main-bg-color);
+}
+
+.register-form .ant-radio-wrapper:hover .ant-radio, .ant-radio:hover .ant-radio-inner, .ant-radio-input:focus + .ant-radio-inner,
+.ant-modal-root .ant-radio-wrapper:hover .ant-radio, .ant-radio:hover .ant-radio-inner, .ant-radio-input:focus + .ant-radio-inner {
+  border-color: var(--main-bg-color);
+}
+
+.register-form .ant-radio-inner::after, .ant-modal-root .ant-radio-inner::after {
+  background-color: var(--main-bg-color);
+}
+
+.register-form .ant-input, .ant-modal-root .ant-input {
+  border-radius: 1px;
+}
+
+.register-form .ant-calendar-picker:hover .ant-calendar-picker-input:not(.ant-input-disabled),
+.ant-modal-root .ant-calendar-picker:hover .ant-calendar-picker-input:not(.ant-input-disabled) {
+  border-color: var(--main-bg-color);
+}
+
+.ant-modal-root .ant-modal {
+  width: 620px;
+}
+
+.ant-modal-root .ant-modal-content {
+  border-radius: 0px;
+}
+
+.ant-modal-root .ant-modal-body {
+  padding: 48px 24px;
+}
+
+.register-form .ant-table-content {
+  box-shadow: 1px 1px 0 rgba(217, 217, 217, 0.5);
+  border: 1px solid #e8e8e8;
+  border-radius: 2px;
+}
+
+.ant-dropdown-menu-item:hover, .ant-dropdown-menu-submenu-title:hover {
+  background-color: #FEF3E7;
+}
+
+.ant-dropdown-menu-item-selected, .ant-dropdown-menu-submenu-title-selected, .ant-dropdown-menu-item-selected > a, .ant-dropdown-menu-submenu-title-selected > a {
+  color: rgba(0, 0, 0, 0.65);
+  background-color: #FEF3E7;
+}

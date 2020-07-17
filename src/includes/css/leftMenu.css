@@ -1,0 +1,150 @@
+.menu-style{
+    background: #FFFFFF;
+    border-color: #FAFAFA; 
+    box-shadow: 1px 0px 2px #C4C4C4;
+  
+}
+.sider-style{
+    background: #FFFFFF;
+    columns: #FAFAFA;
+    box-shadow: 1px 0px 2px rgba(196, 196, 196, 0.699);
+    flex: 0 0 200px !important; 
+    max-width: 200px  ; 
+    min-width: 45px !important; 
+    width: 20px;
+    margin-right: 1px;
+
+}
+.fold-menu{
+  margin-top: 10px !important;
+  margin-bottom: 4.5px !important;
+  margin-right: 20px;
+  padding-left: 16px;
+  padding-top: 5px;
+}
+.ant-menu-submenu-selected {
+    color: #fa541c !important;
+}
+.ant-menu-item:hover,
+.ant-menu-item-active,
+.ant-menu:not(.ant-menu-inline) .ant-menu-submenu-open,
+.ant-menu-submenu-active,
+.ant-menu-submenu-title:hover {
+  color: #fa541c !important;
+}
+.ant-menu-item > a:hover {
+  color: #FE6202;
+}
+.ant-menu-item-selected > a,
+.ant-menu-item-selected > a:hover {
+  color: #FE6202;
+}
+
+.ant-menu-item-selected {
+  color: #FE6202;
+}
+
+.ant-menu-item > .ant-badge > a:hover {
+  color: #FE6202;
+}
+
+.ant-menu-submenu-vertical > .ant-menu-submenu-title:hover .ant-menu-submenu-arrow::after,
+.ant-menu-submenu-vertical-left > .ant-menu-submenu-title:hover .ant-menu-submenu-arrow::after,
+.ant-menu-submenu-vertical-right > .ant-menu-submenu-title:hover .ant-menu-submenu-arrow::after,
+.ant-menu-submenu-inline > .ant-menu-submenu-title:hover .ant-menu-submenu-arrow::after,
+.ant-menu-submenu-vertical > .ant-menu-submenu-title:hover .ant-menu-submenu-arrow::before,
+.ant-menu-submenu-vertical-left > .ant-menu-submenu-title:hover .ant-menu-submenu-arrow::before,
+.ant-menu-submenu-vertical-right > .ant-menu-submenu-title:hover .ant-menu-submenu-arrow::before,
+.ant-menu-submenu-inline > .ant-menu-submenu-title:hover .ant-menu-submenu-arrow::before {
+  background: -webkit-gradient(linear, left top, right top, from(#FE6202), to(#FE6202));
+  background: linear-gradient(to right, #FE6202, #FE6202);
+}
+.ant-menu-vertical .ant-menu-item::after,
+.ant-menu-vertical-left .ant-menu-item::after,
+.ant-menu-vertical-right .ant-menu-item::after,
+.ant-menu-inline .ant-menu-item::after {
+  border-right: 3px solid #FE6202;
+
+}
+
+  .ant-divider-horizontal {
+    display: block;
+    clear: both;
+    width: 100%;
+    min-width: 100%;
+    height: 1px;
+    margin-bottom: 0px;
+    margin-top: 8.6px;
+  }
+
+.menu-item-style{
+  margin-bottom: 10px !important;
+  margin-top: 0px !important;
+  padding-top: 0px !important;
+  background: #FFFFFF;
+  border-color: #FAFAFA; 
+  box-shadow: 1px 0px 2px #C4C4C4;
+}
+
+.ant-layout-sider-children {
+  height: 100%;
+  margin-top: -0.1px;
+  padding-top: 0.1px;
+  background: #FFFFFF !important;
+
+}
+.ant-menu-inline-collapsed {
+  width: 0px;
+}
+.div-sider-menu{
+  margin-bottom: 8px;
+}
+.ant-layout-sider-children {
+  height: 100%;
+  margin-top: 0px;
+  padding-top: 0.1px;
+}
+.ant-menu-inline-collapsed > .ant-menu-item,
+.ant-menu-inline-collapsed > .ant-menu-item-group > .ant-menu-item-group-list > .ant-menu-item,
+.ant-menu-inline-collapsed > .ant-menu-item-group > .ant-menu-item-group-list > .ant-menu-submenu > .ant-menu-submenu-title,
+.ant-menu-inline-collapsed > .ant-menu-submenu > .ant-menu-submenu-title {
+  left: 0;
+  padding: 0 25px !important;
+  padding-top: 0px;
+  text-overflow: clip;
+  margin-right: 0px !important;
+  margin-top: 0px;
+}
+.ant-menu-inline-collapsed > .ant-menu-item .anticon,
+.ant-menu-inline-collapsed > .ant-menu-item-group > .ant-menu-item-group-list > .ant-menu-item .anticon,
+.ant-menu-inline-collapsed > .ant-menu-item-group > .ant-menu-item-group-list > .ant-menu-submenu > .ant-menu-submenu-title .anticon,
+.ant-menu-inline-collapsed > .ant-menu-submenu > .ant-menu-submenu-title .anticon {
+  margin: -7px !important;
+
+}
+.ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected {
+  background-color: #fa531c36;
+}
+.ant-menu-item-selected {
+  color: #fe6202;
+}
+.ant-card {
+  border-radius: 0px;
+  box-shadow: 0px 0px 0px #00000033 !important;
+
+}
+.icon-style{
+  text-align: center;
+}
+.div-side-menu{
+  width: 50px;
+}
+.item-style{
+  padding-bottom: 10px;
+}
+.ant-divider-horizontal {
+  margin-top: 6.3px !important;
+  margin-right: 0px !important;
+  margin-bottom: 0px !important;
+  margin-left: 0px !important;  width:  50px !important;
+}

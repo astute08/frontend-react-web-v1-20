@@ -1,0 +1,12 @@
+input {
+    color: #000;
+}
+
+a {
+    color: rgb(228, 21, 21);
+}
+
+.tag {
+    background: #00cc55;
+    width: 50%;
+}

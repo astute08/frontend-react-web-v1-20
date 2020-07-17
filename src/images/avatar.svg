@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 18.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="44" height="44" viewBox="0 0 44 44">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke: var(#paramStroke);
+        stroke-width: 3px;
+        fill: url(#pattern);
+      }
+
+      .cls-2 {
+        stroke: none;
+      }
+
+      .cls-3 {
+        fill: none;
+      }
+    </style>
+    <pattern id="pattern" width="1" height="1" viewBox="22.104 1.843 22.492 22.492">
+      <image preserveAspectRatio="xMidYMid slice" width="59.946" height="44" xlink:href="Ellipse%20386-image.jpg"/>
+    </pattern>
+    <ref id="paramStroke" param="outline" default="navy"/>
+  </defs>
+  <g id="Ellipse_386" data-name="Ellipse 386" class="cls-1">
+    <circle class="cls-2" cx="22" cy="22" r="22"/>
+    <circle class="cls-3" cx="22" cy="22" r="20.5"/>
+  </g>
+</svg>

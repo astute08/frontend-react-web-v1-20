@@ -1,0 +1,20 @@
+.trigger {
+    font-size: 18px;
+    line-height: 64px;
+    padding: 0 24px;
+    cursor: pointer;
+    transition: color 0.3s;
+    background-color: tomato;
+  }
+  .ant-card-small > .ant-card-body {
+    padding: 8px !important;
+    box-shadow: 0px 1px 0px 0px #E0E0E0 !important;
+  }
+  
+  .header-shadow{
+    border-bottom: 0px !important;
+  }
+  .ant-card-head{
+    /* padding: 5px; */
+
+  }

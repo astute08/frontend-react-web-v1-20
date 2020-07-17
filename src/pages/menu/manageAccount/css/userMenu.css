@@ -1,0 +1,61 @@
+.ant-collapse > .ant-collapse-item:last-child > .ant-collapse-header {
+    border-radius: 0 0 4px 4px;
+  }
+  .ant-collapse {
+    border: 0px solid #d9d9d9;
+    border-bottom: 0;
+    border-radius: 4px;
+    background-color: #fff;
+  }
+  .ant-collapse > .ant-collapse-item {
+    border-bottom: 0px solid #d9d9d9;
+  }
+  .ant-collapse-content {
+    border-top: 0px solid #d9d9d9;
+  }
+  .ant-collapse > .ant-collapse-item > .ant-collapse-header {
+    background-color: #fff;
+  }
+  .ant-collapse-icon-position-right > .ant-collapse-item > .ant-collapse-header {
+    padding: 0px 6px;
+    padding-right: 20%;
+  }
+  .ant-collapse-item:last-child > .ant-collapse-content {
+    padding-bottom: 2%;
+  }
+  .ant-collapse > .ant-collapse-item:last-child > .ant-collapse-header {
+    padding-bottom: 0.2%;
+    padding-left: 0px;
+
+  }
+  .ant-collapse-content > .ant-collapse-content-box {
+    padding-top: 0px;
+    padding-right: 0%;
+    padding-bottom: 16px;
+    padding-left: 0%;
+  }
+  .ant-collapse-icon-position-right > .ant-collapse-item > .ant-collapse-header .ant-collapse-arrow {
+    margin-top: 0px;
+  }
+  .manage-button-style{
+    margin-top: 10;
+    background-color: #FE6202;
+    border-radius: 0.5px;
+    border-width: 0.5px;
+    border-color: #FE6202;
+    color: #fff;
+    width: 93%;
+  }
+  .ant-card-actions {
+    background: #FFFFFF;
+    border-top: 0.5px solid #e8e8e8;
+  }
+  .text-managebt-style{
+    color: #FE6202;
+  }
+  .text-managebt-style:hover{
+    color: rgba(254, 99, 2, 0.466);
+  }
+  .ant-collapse > .ant-collapse-item > .ant-collapse-header .ant-collapse-arrow {
+    font-size: 11px;
+  }

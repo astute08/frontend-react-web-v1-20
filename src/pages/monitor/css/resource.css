@@ -1,0 +1,38 @@
+.card-resource {
+  padding: 0px 15px;
+}
+
+.title {
+  margin: 0px;
+}
+
+.card-resource .ant-card-body {
+  padding: 16px 0px;
+}
+
+.button {
+  margin: 0px;
+}
+
+.text-phone {
+  background: #fe6202;
+  color: #ffffff;
+  border-radius: 9px;
+  border: none;
+  font-size: 10px;
+  padding: 0px 14px 0px 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ant-tag:hover {
+  opacity: unset;
+}
+
+
+.text-name {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

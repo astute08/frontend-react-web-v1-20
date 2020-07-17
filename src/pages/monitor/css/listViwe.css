@@ -1,0 +1,38 @@
+.ant-pagination-total-text {
+  float: left;
+  margin: 0px;
+}
+
+.ant-select-selection-selected-value {
+  margin-right: 5px;
+}
+
+.ant-select-selection__rendered {
+  margin-left: 5px;
+}
+
+.ant-pagination-options {
+  margin: 0px;
+}
+
+.total-items {
+  display: flex;
+  position: relative;
+  margin-top: -42px;
+  margin-left: 10px;
+}
+
+.tags-status {
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+  border-radius: 16px;
+  padding: 0px 14px 0px 14px;
+}
+
+.card-list-view {
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+}

@@ -1,0 +1,40 @@
+/* customized modal image photo */
+
+.customized-modal-register {
+  top: 0px;
+  padding-bottom: 0px;
+}
+
+.customized-modal-register .image-gallery-slide .image-gallery-image {
+  width: 480px;
+}
+
+.customized-modal .image-gallery-slide .image-gallery-image {
+  width: 480px;
+}
+
+.customized-modal-register .ant-modal-content {
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.50);
+}
+
+.customized-modal-register .image-gallery-thumbnails-wrapper {
+  margin: 50px;
+}
+
+.customized-modal-register .ant-modal-close {
+  color: #FFFFFF;
+}
+
+.customized-modal-register .ant-modal-close-x {
+  font-size: 24px
+}
+
+.customized-modal-register .image-gallery-index {
+  margin: 0px 20px 0px 20px;
+}
+
+.ant-modal-wrap {
+  overflow: hidden;
+  top: none;
+}

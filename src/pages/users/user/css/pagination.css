@@ -1,0 +1,9 @@
+.ant-pagination-options {
+    float: left;
+}
+
+.ant-pagination.mini .ant-pagination-total-text {
+    height: 24px;
+    line-height: 24px;
+    float: left;
+}

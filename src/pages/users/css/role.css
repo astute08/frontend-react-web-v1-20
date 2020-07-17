@@ -1,0 +1,72 @@
+.role-input-style{
+  width:  280px;
+  margin-top: 0px;
+}
+.role-name-style .ant-form-item-label > label::after{
+  content: none;
+}
+.role-name-style .ant-form-item-required::before {
+  content: none;
+}
+.role-name-style {
+  padding-left: 24px;
+}
+.role-btn {
+  width: 96px;
+}
+.member-btn{
+  width: 120px;
+
+}
+.transfer-style .ant-transfer{
+  height: 640px;
+
+}
+.transfer-style .ant-transfer-list{
+  width: 360px;
+  height: 480px;
+
+}
+
+.role-member-style{
+  width: 95% !important;
+  /* display: block; */
+  margin-left: auto;
+  margin-right: auto;
+  /* margin-bottom: 37px; */
+}
+.role-member-add{
+  width: 95% !important;
+  /* display: block; */
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+
+}
+
+.role-member-style .ant-table{
+  -webkit-box-shadow: 0px 1px 2px 0px #00000033;
+}
+.member-card-style .ant-card-body{
+  box-shadow: 2px 1px 2px 0px #00000033;
+
+}
+
+.role-menu{
+  width: 100%;
+  border-right: 0px solid #ffefe5 ;
+}
+.role-menu .ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected{
+  background: #fe6302;
+}
+.role-menu .ant-menu-vertical .ant-menu-item::after, .ant-menu-vertical-left .ant-menu-item::after, .ant-menu-vertical-right .ant-menu-item::after, .ant-menu-inline .ant-menu-item::after{
+  border-right: 0px solid #FE6202
+}
+.ant-card-body{
+  padding-left: 0px !important;
+  padding-right: 0px;
+
+}
+.role-card{
+  height: 100vh;
+}

@@ -1,0 +1,70 @@
+.notice-image{
+    vertical-align: middle;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+}
+.kgt-btn-style{
+    margin-top: 10;
+    background-color: #ffffff;
+    border-radius: 0.5px;
+    border-width: 0.5px;
+    border-color: #ffffff !important;
+    color: #000000;
+    width: 100%;
+    box-shadow: 0px 1px 3px #00000033;
+
+  }
+  .kgt-btn-style:active{
+    color: #707070 !important;
+    border: 1px solid #FE6202;
+
+  }
+  .kgt-btn-style:focus{
+    color: #707070 !important;
+    border: 1px solid #FE6202;
+
+  }
+  .kgt-btn-style:hover{
+    color: #707070 !important;
+    border: 1px solid #FE6202;
+
+  }
+  .platform-style{
+    margin-left: -10px;
+    margin-right: -35px !important;
+  }
+  .ant-row {
+    position: relative;
+    height: auto;
+    margin-right: 0;
+    margin-left: 0;
+    padding-top: 0px;
+    zoom: 1;
+    display: block;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  .ant-card-small > .ant-card-head > .ant-card-head-wrapper > .ant-card-extra {
+    padding: 4px 0;
+    font-size: 14px;
+  }
+  .notice-image{
+    width: 19px;
+    height: 19px;
+  }
+  .dot-notification {
+    height: 25px;
+    width: 25px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  .icon-button{
+    color: #707070;
+  }
+  .ant-badge-count {
+    min-width: 23px;
+    height: 23px;
+    border-radius: 50%;
+  }

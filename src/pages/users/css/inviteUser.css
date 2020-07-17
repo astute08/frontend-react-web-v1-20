@@ -1,0 +1,55 @@
+.modal-style{
+    justify-content: center;
+    width: 800px !important;
+}
+.cancel-text-style{
+    color: #FE6202;
+}
+.modal-style .ant-btn{
+    border: 1px solid #FE6202;
+    border-radius: 0%;
+}
+.modal-style .ant-btn:hover{
+    box-shadow: 1px 1px 7px rgba(254, 99, 2, 0.466);
+
+}
+.ant-select-selection--multiple{
+    border-radius: 0%;
+    /* height: 35px; */
+}
+.ant-select-selection--multiple > ul > li, .ant-select-selection--multiple .ant-select-selection__rendered > ul > li{
+    height: 27px;
+}
+.tagify__tag__removeBtn{
+    color: #0b0b0b;
+}
+.modal-style .ant-modal-body{
+    padding: 20px 25px !important;
+}
+.role-text-style{
+    text-align: left;
+    font-size: 12px/24px;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    letter-spacing: 0;
+    color: #000000;
+    opacity: 1;
+    margin-bottom:  10px;
+}
+.suggest-text-style{
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    text-align: left;
+    font-size:  12px/24px;
+    letter-spacing: 0;
+    color: #000000;
+    opacity: 1;
+    margin-bottom:  10px;
+
+}
+.title-modal-text{
+    text-align: left;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size:  16px;
+    letter-spacing: 0;
+    color: #000000;
+    opacity: 1;
+}

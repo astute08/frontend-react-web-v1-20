@@ -1,0 +1,91 @@
+.marker {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 18px;
+  height: 18px;
+  background-color: #000;
+  border: 2px solid #fff;
+  border-radius: 100%;
+  user-select: none;
+  transform: translate(-50%, -50%);
+}
+.gm-ui-hover-effect {
+  display: none !important;
+}
+.gm-style .gm-style-iw-c{
+    width: 310px;
+    /* height: 365px; */
+    height: auto;
+    padding: 0px;
+    border-radius: 0px;
+}
+.gm-style .gm-style-iw-d {
+  overflow: initial !important;
+}
+.selected-style {
+    width:100%;
+    right: 20px;
+    bottom: 28px;
+    margin-top: 35px;
+}
+.selected-style .ant-select{
+    position: static;
+    float: right
+}
+.selected-style .ant-select-selection--single{
+    float: right;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    width: 100%;
+}
+
+.customMarker {
+  position: absolute;
+  cursor: pointer;
+  background: #424242;
+  width: 100px;
+  height: 100px;
+  /* -width/2 */
+  margin-left: -50px;
+  /* -height + arrow */
+  margin-top: -110px;
+  border-radius: 50%;
+  padding: 0px;
+}
+
+.customMarker:after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 40px;
+  border-width: 10px 10px 0;
+  border-style: solid;
+  border-color: #424242 transparent;
+  display: block;
+  width: 0;
+}
+
+.customMarker img {
+  width: 90px;
+  height: 90px;
+  margin: 5px;
+  border-radius: 50%;
+}
+.circle {
+  background: #d83b01;
+  border-radius: 50%;
+  color: #fff;
+  height: 2.5em;
+  position: relative;
+  width: 2.5em;
+
+  border: 1px solid transparent;
+}
+
+.card-map-View {
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+}

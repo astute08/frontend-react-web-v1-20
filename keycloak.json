@@ -1,0 +1,12 @@
+{
+  "realm": "KG_CORP",
+  "auth-server-url": "http://192.168.11.181:8100/auth/",
+  "ssl-required": "external",
+  "resource": "workforce-management",
+  "verify-token-audience": true,
+  "credentials": {
+    "secret": "f0df7d1a-7e88-4494-8791-b5520c157c92"
+  },
+  "use-resource-role-mappings": true,
+  "confidential-port": 0
+}

@@ -1,0 +1,95 @@
+/* .tabs {
+  background-color: #fff;
+  border: 1px solid #e8e8e8;
+  transition: all 0.3s;
+  color: #000000;
+} */
+
+.div-content {
+  margin: 10px 0px 50px 0px;
+}
+
+.col-content {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+.row-graph {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tooltip {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.col-graph {
+  margin-left: 180px;
+}
+
+.col-graph-details {
+  margin-left: 150px;
+}
+
+.badge-size .ant-badge-status-dot {
+  width: 24px; 
+  height: 24px;  
+  border-radius: 50%; 
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.row-details-Distance {
+  margin: 15px 0px 15px 0px;
+}
+
+.font-p {
+  font-size: 24px;
+}
+
+/* .progress-color .ant-progress-circle-path {
+  stroke: rgb(255, 215, 181);
+} */
+
+ /* .ant-progress-circle-path {
+  stroke: #FE6202;
+}  */
+
+/* .ant-progress-inner:not(.ant-progress-circle-gradient) .ant-progress-circle-path {
+  stroke: #FFD7B5 !important;
+}  */
+
+/* .ant-progress-inner:not(.ant-progress-circle-gradient) .ant-progress-circle-path {
+  stroke: #FFD7B5 !important;
+} */
+
+.CircularProgressbar .CircularProgressbar-path {
+  stroke: #FE6202;
+  stroke-linecap: round;
+  transition: stroke-dashoffset 0.5s ease 0s;
+}
+
+/* .CircularProgressbar {
+  width: 70%;
+  vertical-align: middle;
+} */
+
+/* .progressbar {
+  width: 85% !important;
+} */
+
+/* .CircularProgressbarWithChildren {
+  width: 50%;
+} */
+
+.CircularProgressbar .CircularProgressbar-text {
+  fill: #000000;
+  font-size: 6px !important;
+  dominant-baseline: middle;
+  text-anchor: middle;
+}

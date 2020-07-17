@@ -1,0 +1,14 @@
+.e-schedule .e-timeline-view .e-appointment {
+  border-radius: 5px;
+}
+
+.date-picker .ant-input {
+  border: transparent;
+  background-color: transparent;
+  /* padding-left: 50px; */
+}
+
+.date-picker {
+  width: 120px;
+}
+

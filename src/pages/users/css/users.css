@@ -1,0 +1,95 @@
+/* .StyledAppSelect {
+    border-radius: 5%;
+    width: 20%;
+    height: 36px;
+    margin-right: 20px;
+}
+
+.StyledSelectColumns {
+    width: 120px;
+    height: 36px;
+    margin-right: 9px;
+} */
+
+.ant-select-selection {
+    height: auto;   
+}
+
+/* .ant-btn-dashed:hover, .ant-btn-dashed:focus {
+    color: #FE6202;
+    background-color: #fff;
+    border-color: #FE6202;
+} */
+
+.componentUsers {
+    margin-top: 10px;
+}
+
+.card {
+    padding: 10px;
+}
+
+.styled-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.styled-col-input {
+    margin: 0;
+    margin-left: 25px;
+}
+
+.styled-col-select {
+    margin: 0;
+    margin-right: 25px;
+}
+
+.styledAppInput {
+    /* width: 40%; */
+    margin: 0px;
+    border-radius: 5%;
+}
+
+.styledAppSelect {
+    border-radius: 5%;
+    /* width: 20%; */
+    margin-right: 20px;
+}
+
+.styledPopDelete {
+    width: 100px;
+}
+
+.ant-btn-background-ghost.ant-btn-link {
+    color: rgba(0, 0, 0, 0.65);
+}
+
+.cutstom-a {
+    color: rgb(107, 107, 107);
+}
+
+.p-style {
+    width: 100% !important;
+}
+
+.action-delete {
+    margin: unset !important;
+}
+
+.action-delete-span {
+    justify-content: center;
+    display: block;
+    align-items: center;
+}
+
+.user-list .ant-table {
+    /* border-bottom: 0px solid #e8e8e8; */
+    -webkit-box-shadow: 0px 1px 2px 0px #00000033;
+    /* box-shadow: 0px 1px 2px 0px #00000033;
+    color: #000000; */
+}
+
+.action-delete-p {
+    margin-bottom: 0px;
+}

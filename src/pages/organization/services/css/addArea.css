@@ -1,0 +1,3 @@
+.label-from .ant-form-item-required::before {
+  content: none;
+}

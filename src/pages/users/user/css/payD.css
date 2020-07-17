@@ -1,0 +1,38 @@
+/* .content-tabs-summary .ant-progress{
+  padding-top: 8px;
+  padding-bottom: 53.1px;
+} */
+.content-tabs-statement {
+  padding-bottom: 23.1px;
+  color: #000000;
+}
+.request-badge .ant-badge-count {
+  min-width: 14px;
+  height: 14px;
+  width: 6px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 10px;
+}
+.request-badge .ant-badge-count,
+.ant-badge-dot,
+.ant-badge .ant-scroll-number-custom-component {
+  right: -8px;
+  top: -6px;
+  background: #fe6202;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* .button-modal .ant-btn {
+  background-color: #fe6202 ;
+  color: #fff ;
+  font-size: 12px;
+  width: 96px;
+  height: 32px;
+} */
+
+/* .request-badge .ant-scroll-number-only > p.ant-scroll-number-only-unit {
+  margin: -4px;
+  font-size: 10px;
+} */

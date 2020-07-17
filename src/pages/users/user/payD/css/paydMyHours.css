@@ -1,0 +1,77 @@
+.progress-bar .ant-progress-inner{
+  width: 40%;
+  margin: 0px 24px 0px 24px;
+  background-color: #FFD7B5 !important;
+}
+
+.details-hours {
+  margin: 0px 24px 0px 24px;
+}
+
+.details-bar {
+  margin-bottom: 0px 24px 0px 24px;
+}
+
+.font-p {
+  margin-bottom: 10px;
+}
+
+.monthPicker-date .ant-input {
+  border: transparent;
+  background-color: transparent;
+  color: #000000;
+  font-size: 16px;
+  font-weight: 500;
+  width: 170px;
+}
+
+.month-row .monthPicker-date {
+  float: right;
+}
+
+
+.details-myHours {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.details-capacity {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+.details-actual {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+.details-utilization {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+/* .ant-calendar-picker-input .ant-input .ant-input-lg {
+  border: none;
+}  */
+
+.summary-text {
+  padding: 0px !important;
+}
+
+.monthPicker-date .ant-input:focus {
+  box-shadow: 0 0 0 0px transparent;
+}
+
+.table-myHours .ant-table {
+  -webkit-box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.15);
+}
+
+.payd-MyHours {
+  padding: 24px;
+}

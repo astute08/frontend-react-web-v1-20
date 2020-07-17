@@ -1,0 +1,10 @@
+.services-select {
+  width: 150px;
+}
+
+.services-select .ant-select-selection__rendered {
+  height: 37px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}

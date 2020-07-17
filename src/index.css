@@ -1,0 +1,198 @@
+@import "../node_modules/@syncfusion/ej2-base/styles/material.css";
+/* @import "../node_modules/@syncfusion/ej2-buttons/styles/material.css"; */
+@import "../node_modules/@syncfusion/ej2-calendars/styles/material.css";
+@import "../node_modules/@syncfusion/ej2-dropdowns/styles/material.css";
+@import "../node_modules/@syncfusion/ej2-inputs/styles/material.css";
+@import "../node_modules/@syncfusion/ej2-lists/styles/material.css";
+@import "../node_modules/@syncfusion/ej2-navigations/styles/material.css";
+@import "../node_modules/@syncfusion/ej2-popups/styles/material.css";
+/* @import "../node_modules/@syncfusion/ej2-split-buttons/styles/material.css"; */
+@import "../node_modules/@syncfusion/ej2-react-schedule/styles/material.css";
+/* @import "./theme.less"; */
+
+@import "../node_modules/react-image-gallery/styles/css/image-gallery.css";
+@import "../node_modules/slick-carousel/slick/slick.css"; 
+@import "../node_modules/slick-carousel/slick/slick-theme.css";
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow: overlay;
+  background-color: #FAFAFA !important;
+  
+}
+
+body::-webkit-scrollbar {
+  width: 0px; 
+}
+body::-webkit-scrollbar-track {
+  background: #F1F1F1;        /* color of the tracking area */
+}
+body::-webkit-scrollbar-thumb {
+  background-color: #AEAEAE;    /* color of the scroll thumb */
+  border-radius: 20px;       /* roundness of the scroll thumb */
+  border: 2px solid #F1F1F1;  /* creates padding around scroll thumb */
+}
+
+body:hover::-webkit-scrollbar {
+  width: 6px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+/* .trigger {
+  font-size: 18px;
+  line-height: 64px;
+  padding: 0 24px;
+  cursor: pointer;
+  transition: color 0.3s;
+} */
+
+/* .trigger:hover {
+  color: #1890ff;
+} */
+
+.logo {
+  height: 32px;
+  background: rgba(255, 255, 255, 0.2);
+  margin: 16px;
+}
+
+
+
+.AppBorderRadius input {
+  border-radius: 0px;
+}
+
+.organization .ant-tree {
+  overflow-x: hidden;
+  padding-left: 15px;
+  font-size: 15px;
+}
+
+.organization .ant-input {
+  border-radius: 0px;
+  height: 38px; 
+}
+
+.organization .ant-select-selection {
+  border-radius: 0px;
+  /* height: 38px; ปรับ Rows per page: ใต้ตาราง */
+}
+
+.organization .ant-tree li .ant-tree-node-content-wrapper.ant-tree-node-selected {
+  background-color: rgb(255, 239, 229, 0.6);
+	width: 100%;
+}
+
+/* .organization .ant-tree li .ant-tree-node-content-wrapper {
+  width: 100%;
+}
+
+.organization .ant-tree li .ant-tree-node-content-wrapper:hover {
+  background-color: rgb(255, 239, 229, 0.6);
+} */
+
+
+.cls-1:hover, .cls-1:focus {
+  filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg) brightness(104%) contrast(97%);
+}
+
+.avatar-border {
+  border: 0.5px solid #ccc;
+}
+
+.p-5 {
+  padding: 5px;
+} 
+
+.p-10 {
+  padding: 10px;
+} 
+
+.p-l-5 {
+  padding-left: 5px;
+} 
+
+.p-l-10 {
+  padding-left: 10px;
+} 
+
+.e-appointment-details {
+  /* padding: 2 !important; */
+  /* border-radius: 5px; */
+}
+
+.e-resource-left-td, .e-time-slots {
+  background-color: #F5F5F5 !important;
+  ;
+}
+
+.organization .tree-transfer .ant-transfer-list {
+  max-width: 480px !important;
+  flex: none;
+}
+
+.ant-modal-body .ant-transfer-customize-list .ant-transfer-list-body-customize-wrapper {
+  padding: 12px 0px;
+}
+
+.schedule-cell-dimension colgroup col {
+  /* width: 5px !important; */
+}
+
+.schedule-cell-dimension-shift colgroup col {
+  width: 136px !important;
+}
+
+/* .organization .ant-card-body {
+  padding: 24px 0px 24px 0px;
+} */
+/* .schedule-cell-dimension .e-resource-cells {
+  height: 30px !important;
+} */
+
+/* Rows per page select */
+.ant-table-wrapper .ant-select-selection {
+  border: none;
+}
+
+
+.e-content-wrap::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+.e-content-wrap::-webkit-scrollbar-track {
+  background: #F1F1F1;        /* color of the tracking area */
+}
+.e-content-wrap::-webkit-scrollbar-thumb {
+  background-color: #AEAEAE;    /* color of the scroll thumb */
+  border-radius: 20px;       /* roundness of the scroll thumb */
+  border: 2px solid #F1F1F1;  /* creates padding around scroll thumb */
+}
+
+.e-schedule .e-timeline-view .e-date-header-wrap table tbody td, .e-schedule .e-timeline-month-view .e-date-header-wrap table tbody td {
+  padding: 0;
+  background-color: #F5F5F5;
+}
+
+.e-schedule .e-timeline-view .e-date-header-wrap table td.e-current-day, .e-schedule .e-timeline-month-view .e-date-header-wrap table td.e-current-day {
+  color: #FE6202;
+  font-weight: bold;
+}
+
+.e-schedule .e-timeline-view .e-appointment .e-appointment-details, .e-schedule .e-timeline-month-view .e-appointment .e-appointment-details {
+  padding: 0;
+}
+
+.schedule-cell-dimension .e-appointment {
+  top: 10 !important;
+}

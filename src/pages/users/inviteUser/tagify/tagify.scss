@@ -1,0 +1,186 @@
+.tagify{
+    // SCSS "default" allows overriding variables BEFORE they are set in the below lines of code
+    $self: &;
+    $tags-border-color       : #d9d9d9 !default;
+    $tags-hover-border-color : #FE6202 !default;
+    $tags-focus-border-color : #FE6202 !default;
+  
+    $tagMargin               : 5px !default;
+    $tag-pad                 : .3em .5em !default;
+  
+    $tag-text-color          : #FE6202 !default;
+    $tag-text-color--edit    : #FE6202 !default;
+    $tag-bg                  : #FFFFFF !default;
+    $tag-hover               : rgba(253, 142, 72, 0.253) !default;
+    $tag-remove              : rgba(254, 99, 2, 0.555) !default;
+    $tag-remove-btn-bg       : none !default;
+    $tag-remove-btn-bg--hover: darken($tag-remove, 8) !default;
+    $tag-invalid-color       : $tag-remove !default;
+    $tag-invalid-bg          : rgba($tag-remove, .5) !default;
+    $showX                   : true !default;
+    $tag-inset-shadow-size   : 1.1em !default;
+  
+    // CSS variables
+    --tags-border-color        : #{$tags-border-color};
+    --tag-bg                   : #{$tag-bg};
+    --tag-hover                : #{$tag-hover};
+    --tag-text-color           : #{$tag-text-color};
+    --tag-text-color--edit     : #{$tag-text-color--edit};
+    --tag-pad                  : #{$tag-pad};
+    --tag-inset-shadow-size    : #{$tag-inset-shadow-size};
+    --tag-invalid-color        : #{$tag-invalid-color};
+    --tag-invalid-bg           : #{$tag-invalid-bg};
+    --tag-remove-bg            : #{rgba($tag-remove, .3)};
+    --tag-remove-btn-bg        : #{$tag-remove-btn-bg};
+    --tag-remove-btn-bg--hover : #{$tag-remove-btn-bg--hover};
+  
+  
+  
+    @mixin placeholder( $show:true, $opacity:.5 ){
+        transition:.2s ease-out;
+        @if $show == true {
+            opacity:$opacity; transform:none;
+        }
+        @else {
+            opacity:0; transform:translatex(6px);
+        }
+    }
+  
+    @mixin tagReadonlyBG{
+        background: linear-gradient(45deg, var(--tag-bg)  25%,
+                                           transparent    25%,
+                                           transparent    50%,
+                                           var(--tag-bg)  50%,
+                                           var(--tag-bg)  75%,
+                                           transparent    75%,
+                                           transparent)         0/5px 5px;
+        box-shadow: none;
+        filter: brightness(.95);
+    }
+  
+    @keyframes tags--bump{
+        30% { transform: scale(1.2); }
+    }
+  
+    display       : flex;
+    align-items   : flex-start;
+    flex-wrap     : wrap;
+    border        : 1px solid $tags-border-color;
+    border        : 1px solid var(--tags-border-color);
+    padding       : 0;
+    line-height   : 1.1;
+    cursor        : text;
+    position      : relative;
+    transition    : .1s;
+  
+    &:hover{ border-color:$tags-hover-border-color; }
+    &.tagify--focus{ border-color: $tags-focus-border-color; }
+  
+    // Global "read-only" mode (no input button)
+    &[readonly]{
+        cursor: default;
+        > #{ $self }__input{
+            visibility: hidden;
+            width: 0;
+            margin: $tagMargin 0;
+        }
+        #{ $self }__tag__removeBtn{ display:none; }
+        #{ $self }__tag > div{
+            padding: $tag-pad;
+            padding: var(--tag-pad);
+            &::before{
+                @include tagReadonlyBG;
+            }
+        }
+    }
+  
+    ///////////////////////////////////////////
+    // Hides originals
+    + input,
+    + textarea{ display:none !important; }
+  
+    &__tag{
+        display        : inline-flex;
+        align-items    : center;
+        margin         : $tagMargin 0 $tagMargin $tagMargin;
+      //  vertical-align : top;
+        position       : relative;
+        z-index        : 1;
+        cursor         : default;
+        transition     : .13s ease-out;
+  
+        &.tagify--editable{
+            > div{
+                color : $tag-text-color--edit;
+                color : var(--tag-text-color--edit);
+  
+                &::before{
+                    box-shadow: 0 0 0 2px $tag-hover inset !important;
+                    box-shadow: 0 0 0 2px var(--tag-hover) inset !important;
+                }
+            }
+  
+            &.tagify--invalid{
+                > div{
+                    &::before{
+                        box-shadow: 0 0 0 2px $tag-invalid-color inset !important;
+                        box-shadow: 0 0 0 2px var(--tag-invalid-color) inset !important;
+                    }
+                }
+            }
+        }
+  
+        > div{  // :not([contenteditable])
+            vertical-align : top;
+            box-sizing     : border-box;
+            max-width      : 100%;
+            padding        : $tag-pad;
+            padding        : var(--tag-pad);
+            color          : $tag-text-color;
+            color          : var(--tag-text-color);
+            line-height    : inherit;
+            border-radius  : 3px;
+            user-select    : none;
+            transition     : .13s ease-out;
+  
+            > *{
+                white-space    : nowrap;
+                overflow       : hidden;
+                text-overflow  : ellipsis;
+                display        : inline-block;
+                vertical-align : top;
+                min-width      : 10px;
+  
+                &[contenteditable]{
+                    outline: none;
+                    user-select: text;
+                    cursor: text;
+                    // fix: sometimes the caret after the last character wasn't visible (when setting {backspace:"edit"})
+                    margin: -2px;
+                    padding: 2px;
+                }
+            }
+  
+            @if $showX {
+             //   padding-right:nth($tag-pad, 2) * 3;
+            }
+  
+            &::before{
+                content: '';
+                position: absolute;
+                border-radius: inherit;
+                border: 0.5px solid #FE6202;
+                left:0; top:0; right:0; bottom:0;
+                z-index: -1;
+                pointer-events:none;
+                transition: 120ms ease;
+                animation : tags--bump .3s ease-out 1;
+  
+                box-shadow: 0 0 0 $tag-inset-shadow-size $tag-bg inset;
+                box-shadow: 0 0 0 var(--tag-inset-shadow-size) var(--tag-bg) inset;
+            }
+        }
+  
+    }
+      
+  }

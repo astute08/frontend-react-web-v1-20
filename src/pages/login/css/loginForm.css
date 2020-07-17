@@ -1,0 +1,218 @@
+.login-form {
+    max-width: 100%;
+    /* text-align: center; */
+
+  }
+  .login-form-forgot {
+    float: right;
+    color: #707070;
+    font-size: small;
+    font-weight: normal;
+  }
+  .login-form-remember {
+    color: #7D7D7D;
+    font-size: small;
+    padding-right: 70px;
+
+  }
+  .remember-forgot-row {
+    color: #7D7D7D;
+    font-size: small;
+    margin-top: -3px;
+    margin-bottom: 0px;
+  }
+  .login-form-button {
+    width: 100%;
+    background: #FE6202;
+    /* border-radius: 1px; */
+    color: #FFFFFF !important;
+    margin-top: 30px;
+
+  }
+  .label-font {
+    flex: 1; 
+    text-align: center;
+    font-size: 20px;
+  }
+  .input-label-login {
+    text-align: left;
+    margin-top: 5px;
+    padding-top: -5px;
+    padding-bottom: 0px;
+    width: 100%;
+    font-style: normal;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #000000;
+    font-size: 16px;
+  }
+  .form-margin{
+    margin-top: 100px;
+  }
+  .form-item {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: rgba(0, 0, 0, 0.65);
+    font-size: 14px;
+    font-variant: tabular-nums;
+    line-height: 1.5;
+    list-style: none;
+    -webkit-font-feature-settings: 'tnum';
+    font-feature-settings: 'tnum';
+    vertical-align: top;
+    width: 100%;
+
+  }
+
+  .ant-checkbox-input:focus + .ant-checkbox-inner {
+    border-color: #fa541c;
+  }
+  .ant-checkbox-checked::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #fa541c;
+    border-radius: 2px;
+    visibility: hidden;
+    -webkit-animation: antCheckboxEffect 0.36s ease-in-out;
+            animation: antCheckboxEffect 0.36s ease-in-out;
+    -webkit-animation-fill-mode: backwards;
+            animation-fill-mode: backwards;
+    content: '';
+  }
+
+  .ant-checkbox-checked .ant-checkbox-inner {
+    background-color: #fa541c;
+    border-color: #fa541c;
+  }
+  .ant-input-affix-wrapper:hover .ant-input:not(.ant-input-disabled) {
+    border-color: #fa541c;
+    border-right-width: 1px !important;
+  }
+  .ant-select-selection:hover {
+    border-color: #fa541c;
+    border-right-width: 1px !important;
+  }
+.ant-select-focused .ant-select-selection,
+.ant-select-selection:focus,
+.ant-select-selection:active {
+  border-color: #fa541c;
+  border-right-width: 1px !important;
+  outline: 0;
+  -webkit-box-shadow: 0 0 0 2px #fa541c;
+          box-shadow: 0 0 0 2px #fa541c;
+}
+.ant-select-open .ant-select-selection {
+  border-color: #fa541c;
+  border-right-width: 1px !important;
+  outline: 0;
+  -webkit-box-shadow: 0 0 0 2px rgba(24, 144, 255, 0.2);
+          box-shadow: 0 0 0 2px rgba(24, 144, 255, 0.2);
+}
+.ant-select-dropdown.ant-select-dropdown--multiple .ant-select-dropdown-menu-item-selected .ant-select-selected-icon,
+.ant-select-dropdown.ant-select-dropdown--multiple .ant-select-dropdown-menu-item-selected:hover .ant-select-selected-icon {
+  display: inline-block;
+  color: #fa541c;
+}
+.ant-select-focused .ant-select-selection,
+.ant-select-selection:focus,
+.ant-select-selection:active {
+  border-color: #fa541c !important;
+  border-right-width: 1px !important;
+  outline: 0;
+  -webkit-box-shadow: 0 0 0 2px rgba(250, 164, 84, 0.815);
+          box-shadow: 0 0 0 2px rgba(250, 164, 84, 0.815);
+}
+.ant-select-dropdown-menu-item {
+  position: relative;
+  display: block;
+  padding: 5px 12px;
+  overflow: hidden;
+  color: rgba(0, 0, 0, 0.65);
+  font-weight: normal;
+  line-height: 22px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  cursor: pointer;
+  -webkit-transition: background 0.3s ease;
+  transition: background 0.3s ease;
+}
+.ant-select-dropdown-menu-item:hover:not(.ant-select-dropdown-menu-item-disabled) {
+  background-color: #f7a782ec;
+}
+.ant-select-dropdown-menu-item-active:not(.ant-select-dropdown-menu-item-disabled) {
+  background-color: #ffc9b0ec;
+}
+.ant-input:hover {
+  border-color: #fa541c;
+}
+.ant-input:focus {
+  border-color: #fa541c;
+  border-right-width: 1px !important;
+  outline: 0;
+  -webkit-box-shadow: 0 0 0 2px rgba(255, 128, 24, 0.171);
+          box-shadow: 0 0 0 2px rgba(255, 128, 24, 0.171);
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  border: 1px solid #FE6202;
+  -webkit-text-fill-color: rgba(0, 0, 0, 0.65);
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+/* Create two equal columns that floats next to each other */
+.column1 {
+  float: left;
+  width: 100%;
+  padding: 25px;
+  margin-top: 100px !important;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.column2 {
+  float: left;
+  width: 100%;
+  height: 100%; /* Should be removed. Only for demonstration */
+}
+
+.ant-form{
+    margin-left: 0px;
+}
+
+.has-error .ant-form-explain, .has-error .ant-form-split{
+  text-align: left;
+}
+.login-form-button .ant-btn:hover,
+ .ant-btn:focus {
+  color: #FE6202 !important;
+  background-color: #fff;
+  border-color: #FE6202;
+}
+.ant-form-item-control {
+  position: relative;
+  line-height: 35px;
+  zoom: 1;
+}
+
+.ant-form-item {
+  margin-bottom: 0px;
+  width: 100%;
+  /* justify-content: 'center';
+  align-items: 'center'; */
+}
