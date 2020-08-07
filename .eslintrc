@@ -1,0 +1,16 @@
+{
+  "eslintConfig": {
+    "extends": ["react-app", "shared-config"],
+    "rules": {
+      "no-unused-vars": "error"
+    },
+    "overrides": [
+      {
+        "files": ["**/*.ts?(x)"],
+        "rules": {
+          "additional-typescript-only-rule": "warn"
+        }
+      }
+    ]
+  }
+}

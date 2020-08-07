@@ -1,0 +1,134 @@
+{
+  "name": "kg-wfm-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@react-keycloak/web": "^1.0.4",
+    "@syncfusion/ej2-react-calendars": "^18.1.53",
+    "@syncfusion/ej2-react-dropdowns": "^18.1.54",
+    "@syncfusion/ej2-react-grids": "^18.1.44",
+    "@syncfusion/ej2-react-schedule": "^18.1.44",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.4.1",
+    "@testing-library/user-event": "^7.2.1",
+    "@yaireo/tagify": "^3.5.1",
+    "antd": "^3.26.12",
+    "atob": "^2.1.2",
+    "axios": "^0.19.2",
+    "babel-plugin-import": "^1.13.0",
+    "chart.js": "^2.9.3",
+    "customize-cra": "^0.9.1",
+    "dotenv": "^8.2.0",
+    "env-cmd": "^10.1.0",
+    "express": "^4.17.1",
+    "form-data": "^3.0.0",
+    "formik": "^2.1.4",
+    "fs": "0.0.1-security",
+    "google-maps-react": "^2.0.2",
+    "i18next": "^19.3.2",
+    "jimp": "^0.13.0",
+    "jquery": "^3.4.1",
+    "js-cookie": "^2.2.1",
+    "jsonwebtoken": "^8.5.1",
+    "keycloak-js": "^9.0.0",
+    "less": "^3.11.1",
+    "less-loader": "^5.0.0",
+    "lodash": "^4.17.15",
+    "moment": "^2.24.0",
+    "node-sass": "^4.13.1",
+    "nodemon": "^2.0.2",
+    "phone-formatter": "0.0.2",
+    "qs": "^6.9.1",
+    "query-string": "^6.11.0",
+    "rc-tween-one": "^2.7.2",
+    "react": "^16.13.1",
+    "react-app-rewired": "^2.1.5",
+    "react-avatar-editor": "^11.0.9",
+    "react-bnb-gallery": "^1.1.9",
+    "react-chartjs-2": "^2.9.0",
+    "react-circular-progressbar": "^2.0.3",
+    "react-dom": "^16.13.1",
+    "react-email-chips": "^0.1.20",
+    "react-geocode": "^0.2.1",
+    "react-google-autocomplete": "^1.1.2",
+    "react-google-maps": "^9.4.5",
+    "react-grid-gallery": "^0.5.5",
+    "react-i18next": "^11.3.1",
+    "react-image-crop": "^8.5.0",
+    "react-image-file-resizer": "^0.2.4",
+    "react-image-gallery": "^1.0.7",
+    "react-images": "^1.1.7",
+    "react-intl": "^3.12.0",
+    "react-keycloak": "^8.0.1-191210",
+    "react-number-format": "^4.4.1",
+    "react-process-string": "^1.2.0",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.4.1",
+    "react-sizeme": "^2.6.12",
+    "react-slick": "^0.26.0",
+    "react-tag-autocomplete": "^6.0.0-beta.4",
+    "react-tageditor": "^0.2.3",
+    "rebass": "^4.0.7",
+    "reselect": "^4.0.0",
+    "slick-carousel": "^1.8.1",
+    "styled-components": "^4.4.1",
+    "universal-cookie": "^4.0.3",
+    "url-join": "^4.0.1",
+    "yup": "^0.28.3"
+  },
+  "scripts": {
+    "start": "env-cmd -f .env react-app-rewired start",
+    "start:staging": "env-cmd -f .env.staging react-app-rewired start",
+    "start:development": "env-cmd -f .env.development react-app-rewired start",
+    "build": "env-cmd -f .env react-app-rewired build",
+    "build:staging": "env-cmd -f .env.staging react-app-rewired build",
+    "build:development": "env-cmd -f .env.development react-app-rewired build",
+    "test": "jest --u",
+    "eject": "react-app-rewired eject",
+    "start:dev": "nodemon index.js",
+    "format": "prettier \"**/*.{js,ts,json,yml,yaml}\" --write",
+    "format:md": "remark-preset-davidtheclark --format",
+    "format:check": "prettier \"**/*.{js,ts,json,yml,yaml}\" --check"
+  },
+  "lint-staged": {
+    "*.{js,ts}": [
+      "eslint --fix",
+      "prettier --write",
+      "git add"
+    ],
+    "*.{json,yml,yaml}": [
+      "prettier --write",
+      "git add"
+    ],
+    "*.md": [
+      "remark-preset-davidtheclark",
+      "remark-preset-davidtheclark --format",
+      "git add"
+    ]
+  },
+  "prettier": {
+    "trailingComma": "all",
+    "arrowParens": "always",
+    "singleQuote": true,
+    "printWidth": 80,
+    "tabWidth": 2
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "prettier": "1.19.1"
+  }
+}
